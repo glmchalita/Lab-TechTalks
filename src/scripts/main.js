@@ -1,6 +1,6 @@
 AOS.init();
 
-const eventDate = new Date("Dec 25, 2023 19:00:00");
+const eventDate = new Date("May 16, 2024 00:00:00");
 const eventTimestamp = eventDate.getTime();
 
 const dateCheck = setInterval(function () {
@@ -22,6 +22,6 @@ const dateCheck = setInterval(function () {
 
   if (remaining < 0) {
     clearInterval(dateCheck);
-    document.getElementsByClassName("hero__text")[0].innerHTML = "O maior evento de tecnologia do Brasil já começou";
+    document.getElementsByClassName("hero__text")[0].innerHTML = "Hoje é meu aniversário";
   }
 }, 1000);

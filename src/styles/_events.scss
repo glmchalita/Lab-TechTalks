@@ -28,20 +28,12 @@
     border-radius: 8px;
   }
 
-  &--frontend {
+  &--gifts {
     background-image: vars.$event1;
   }
 
-  &--backend {
+  &--guests {
     background-image: vars.$event2;
-  }
-
-  &--uxui {
-    background-image: vars.$event3;
-  }
-
-  &--datascience {
-    background-image: vars.$event4;
   }
 
   &--reverse {
