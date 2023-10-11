@@ -1,0 +1,40 @@
+@use "vars";
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+
+  @media (max-width: 1024px) {
+    max-width: 90%;
+  }
+
+  @media (max-width: 640px) {
+    max-width: 80%;
+  }
+}
+
+.btn {
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  text-align: center;
+  white-space: nowrap;
+
+  &--primary {
+    color: vars.$white;
+    background-color: vars.$btnPrimary;
+  }
+
+  @media (max-width: 1024px) {
+    display: flex;
+    align-items: center;
+  }
+
+  @media (max-width: 640px) {
+    display: block;
+    max-width: 100%;
+  }
+}
